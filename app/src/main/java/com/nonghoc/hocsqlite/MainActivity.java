@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         row.put("Ten", "Huynh Thuc Khang");
         long r = database.insert("Contact",null,row);
 
-        Toast.makeText(MainActivity.this, "them: r = " + r,Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "Da them nhhan vien: r = " + r,Toast.LENGTH_LONG).show();
         showAllContactOnListView();
     }
 
